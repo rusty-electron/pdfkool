@@ -48,8 +48,8 @@ A simple wrapper script to compress pdfs using ghostscript
 
 ## Features
 
-[x] compress files
-[ ] rotate pages
+* [x] compress files
+* [ ] rotate pages
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
