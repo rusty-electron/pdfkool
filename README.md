@@ -29,13 +29,14 @@ pdfkool [OPTION]...
 A simple wrapper script to compress pdfs using ghostscript
 
  Options:
-  -i, --input       Path to input pdf file
-  -o, --output      Path to output pdf file
-  -Q, --quality     Specify quality setting for output file (See QUALITY below)
-  -q, --quiet       Quiet (no output)
-  -l, --log         Print log to file
-  -h, --help        Display this help and exit
-      --version     Output version information and exit
+  -i, --input          Path to input pdf file
+  -o, --output         Path to output pdf file
+  -Q, --quality        Specify quality setting for output file (See QUALITY below)
+  -q, --quiet          Quiet (no output)
+  -p, --preserve-links Preserve hyperlinks
+  -l, --log            Print log to file
+  -h, --help           Display this help and exit
+  -v, --version        Output version information and exit
 
  QUALITY:
     screen   (screen-view-only quality, 72 dpi images)
@@ -44,6 +45,11 @@ A simple wrapper script to compress pdfs using ghostscript
     prepress (high quality, color preserving, 300 dpi imgs)
     default  (compatible for various use case, large file usually)
 ```
+
+## Features
+
+[x] compress files
+[ ] rotate pages
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
